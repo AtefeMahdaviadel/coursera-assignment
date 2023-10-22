@@ -1,11 +1,8 @@
-# Climate Change Data Analysis
+# Data Science Tools and Ecosystem
 
+In this notebook, Data Science Tools and Ecosystem are summarized.
 
-
-This notebook will cover basic data analysis techniques applied to climate change data. We will use Python and several libraries to visualize the data.
-
-
-## Data Science Languages
+## Some of the popular languages that Data Scientists use are:
 
 - Python: Widely used for data analysis and machine learning.
 - R: Great for statistical analysis and data visualization.
@@ -15,8 +12,8 @@ This notebook will cover basic data analysis techniques applied to climate chang
 - SAS: Used in business analytics.
 
 
-## Data Science Libraries
-
+## Some of the commonly used libraries used by Data Scientists include:
+### ordered list
 - Pandas: For data manipulation and analysis.
 - NumPy: Useful for numerical operations.
 - Matplotlib: For data visualization.
@@ -38,7 +35,7 @@ This notebook will cover basic data analysis techniques applied to climate chang
 | Excel        | Data Analysis, Visualization | -         |
 
 
-## Arithmetic Expressions
+## Below are a few examples of evaluating arithmetic expressions in Python
 
 Arithmetic expressions are calculations that computers can understand. They use operators like `+` for addition, `-` for subtraction, `*` for multiplication, and `/` for division. Below are some examples:
 
@@ -57,22 +54,18 @@ In code, these expressions look like this:
 
 
 ```python
-result_multiplication = 5 * 3
+#This a simple arithmetic expression to mutiply then add integers
+result_multiplication = (3 * 4)+5
 print("Multiplication result:", result_multiplication)
-
-
-result_addition = 2 + 2
-print("Addition result:", result_addition)
-
 ```
 
-    Multiplication result: 15
-    Addition result: 4
+    Multiplication result: 17
 
 
 
 ```python
-minutes = 60
+# This will convert 200 minutes to hours by diving by 60
+minutes = 200
 
 hours = minutes / 60
 
@@ -80,7 +73,7 @@ print(f"{minutes} minutes is equal to {hours} hours.")
 
 ```
 
-    60 minutes is equal to 1.0 hours.
+    200 minutes is equal to 3.3333333333333335 hours.
 
 
 ## Objectives
